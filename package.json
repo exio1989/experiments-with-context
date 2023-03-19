@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "watch": "webpack --watch",
+    "watch": "webpack serve  --mode=development",
     "http-server": "http-server ./dist -p 8082 --cors"
   },
   "repository": {
@@ -22,8 +22,11 @@
   "homepage": "https://github.com/exio1989/experiments-with-context#readme",
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2",
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
-    "http-server": "^14.1.1"
+    "webpack-dev-server": "^4.13.1"
   }
 }

@@ -8,9 +8,19 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         publicPath: '/',
     },
+    module: {
+        rules: [
+            {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/,
+            },
+        ],
+    },
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Test',
         }),
     ],
 };
+
