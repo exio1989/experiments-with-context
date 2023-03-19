@@ -1,0 +1,29 @@
+{
+  "name": "experiments-with-context",
+  "version": "1.0.0",
+  "description": "Эксперименты с контекстом js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "http-server": "http-server ./dist -p 8082 --cors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exio1989/experiments-with-context.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exio1989/experiments-with-context/issues"
+  },
+  "homepage": "https://github.com/exio1989/experiments-with-context#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "http-server": "^14.1.1"
+  }
+}
